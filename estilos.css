@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    font-family: "Poiret One", cursive;
+    height: 800px;
+    overflow: hidden;
+    background: #67233c;
+    background: url("shemag.jpg")
+      right no-repeat;
+    background-size: cover;
+  
+    color: #bea068;
+    text-align: center;
+    margin: 0;
+    cursor: url("https://assets.codepen.io/108463/star.png"), auto;
+  }
+  
+  img {
+    position: absolute;
+    left: -70px;
+    bottom: 110px;
+    transform: scale(2);
+    filter: drop-shadow(10px 5px 1px #08a8c1a1);
+  }
+  
+  h1 {
+    font-size: 130px;
+    background: url("https://media.giphy.com/media/l0Ex8kR5qrnOaZx3a/giphy.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    text-shadow: 5px 5px #08a8c1a1;
+    position: absolute;
+    right: 20px;
+    top: -95px;
+    text-align: right;
+    filter: brightness(110%);
+    text-transform: uppercase;
+    letter-spacing: 17px;
+  }
+  
+  h1 #span1 {
+    background: url("https://media.giphy.com/media/l0Ex8kR5qrnOaZx3a/giphy.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 120px;
+    display: block;
+    letter-spacing: normal;
+    font-size: 125px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -110px;
+    bottom: 0;
+  }
+  
+  h1 #span2 {
+    font-size: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  nav {
+    font-family: "Allura", cursive;
+    width: 690px;
+    height: 234px;
+    position: absolute;
+    bottom: 90px;
+    bottom: 75px;
+    right: 22px;
+    background: url("dibujo5.png")
+      center no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+  }
+  
+  ul {
+    padding: 0;
+    height: 100%;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 40px 10px 0;
+    /*   text-transform: uppercase; */
+    background: url("https://media.giphy.com/media/l0Ex8kR5qrnOaZx3a/giphy.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    text-shadow: 1px 1px #ffff;
+    font-weight: 900;
+    vertical-align: top;
+    filter: brightness(110%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  li:nth-of-type(1) a {
+    margin-top: 40px;
+  }
+  
+  li:nth-of-type(2) a {
+    margin-top: 40px;
+  }
+  
+  li:nth-of-type(3) a {
+    margin-top: 40px;
+  }
+  
+  a:hover {
+    filter: hue-rotate(90deg);
+    cursor: url("https://assets.codepen.io/108463/star.png"), auto;
+  }
+  
+
+ 
